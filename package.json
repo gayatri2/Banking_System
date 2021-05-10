@@ -1,0 +1,22 @@
+{
+  "name": "banking_system",
+  "version": "1.0.0",
+  "description": "This project is about a basic banking system for transfer of money between multiple users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayatri2/Banking_System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gayatri2/Banking_System/issues"
+  },
+  "homepage": "https://github.com/gayatri2/Banking_System#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
+}
