@@ -37,9 +37,66 @@
   }
 }*/
 
+body{
+  overflow-x: hidden;   /*to remove extra white spaces at the ends of screen*/
+}
 
-.brandlogo{
-  width:5.5%;
+/* nav bar customizations */
+.navbar{
+  background-color: #08d9d6;
+}
+.navbar a{
+  color:black;
+}
+.navbar-toggler{
+  background-color:azure;
+  
+}
+.custom-toggler{
+  border-color: white;
+  width: 50px !important;
+height:40px !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+/*Content*/
+.home_heading{
+  color:navy;
+  margin-top: 25%;
+  margin-left: 12%;
+
+}
+.home_para{
+  color:#ff2e63;
+  margin-top: 4%;
+  margin-left: 14%;
+  font-size: large;
+}
+.bank{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: larger;
+  font-weight: 600;
+  color:#222831;
+
+}
+
+/*Images*/
+.transfer_img{
+  width:65%;
   height:auto;
-  margin-left: 1%;
+  margin-top: 12%;
+  
+  margin-left: 50px;
+}
+
+/*Cards*/
+.card{
+  height:75px;
+  width:75px;
 }
