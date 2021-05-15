@@ -1,5 +1,6 @@
 import React from "react";
 import brand from "../images/brand4.png";
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -7,9 +8,9 @@ function Navbar() {
       <div>
         <nav class="navbar navbar-expand-lg">
             
-            <a class="navbar-brand" href="#">
+            <Link to="/" class="navbar-brand">
                 <img src={brand} width="90" height="60"/>
-            </a>
+            </Link>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -17,10 +18,10 @@ function Navbar() {
                 <ul class="navbar-nav ml-auto">
                
                 <li class="nav-item">
-                    <a class="nav-link" href="#">View Customers</a>
+                    <Link to="/customers" class="nav-link">View Customers</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Transfer</a>
+                    <Link to="/transfers" class="nav-link">Transfer</Link>
                 </li>
                 
                 </ul>
