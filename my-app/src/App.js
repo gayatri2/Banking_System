@@ -2,6 +2,7 @@ import React from 'react';
 import "./App.css";
 import Footer from "./components/Footer";
 
+
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Customers from './components/Customers';
@@ -10,6 +11,8 @@ import Transfers from './components/Transfers';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 
 function App() {
+
+
   return (
     <Router>
       <div className="App" >

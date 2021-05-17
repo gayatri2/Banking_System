@@ -244,3 +244,45 @@ height:40px !important;
   font-size:13px;
   margin-bottom:0;
 }
+
+/*Customers page*/
+.App {
+  text-align: center;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.form input{
+  width:300px;
+  height:60px;
+  margin:10px;
+}
+.card{
+  /*height:230px;*/
+  width:35%;
+  margin-top:3%;
+  border-color: #08d9d6;
+}
+.btn{
+  margin-top: 5%;
+}
+.card-header{
+  font-weight: 700;
+  font-size: xx-large;
+  background-color: white;
+  font-family:'Lobster', cursive;
+}
+.pluss{
+  margin-left: 85%;
+  margin-top: 3%;
+ border:none;
+ background-color: #fff;
+}
+#myDIV{
+  display:none;
+}
