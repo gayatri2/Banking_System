@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Customers from './components/Customers';
 import Transfers from './components/Transfers';
+import Customerinfo from './components/Customerinfo';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route exact path="/Transfers">
               <Transfers />
+            </Route>
+            <Route exact path="/Customerinfo/:name">
+              <Customerinfo />
             </Route>
           </Switch>
         </div>

@@ -1,5 +1,6 @@
 import React,  { useState, useEffect } from "react";
 import Axios from "axios";
+import Customerinfo from './Customerinfo';
 
 
 function Customers() {
@@ -64,7 +65,7 @@ function Customers() {
       </div>
       <div class="card-body">
         <h5 class="card-title">Type: {value.type}</h5>
-        <a href="#" class="btn btn-info">View</a>
+        <a href={"Customerinfo/"+value.name} class="btn btn-info">View</a>
       </div>
     </div>
       

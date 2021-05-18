@@ -62,6 +62,28 @@ app.post("/api/insert",function(req,res){
     });
 })
 
+app.get("/Customerinfo/:inp",function(req,res){
+    var prm=req.params.inp;
+    console.log(prm);
+
+    const sqlSearch="SELECT * FROM customers WHERE customers.name=(?)";
+    db.query(sqlSearch,[prm],function(err,response){
+        if(err)
+        {
+            console.log(err);
+        }
+        else
+        {
+            res.send(response);
+        }
+    });
+    
+    
+
+})
+
+
+
 
 //SQL database: bankdb, table: customers, fields: name, type, balance
 
