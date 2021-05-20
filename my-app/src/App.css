@@ -159,6 +159,8 @@ height:40px !important;
   color:#f0f9ff;
   background-color:#282d32;
   margin-top:8%;
+  
+
 }
 
 .footer-dark h3 {
@@ -292,4 +294,98 @@ height:40px !important;
   margin-left: 30%;
   margin-top: 11%;
   margin-bottom: 13%;
+}
+/* transfers*/
+#div2
+{
+  display: none;
+  color:#2eb872;
+  
+}
+#div3{
+  display: none;
+  color:red;
+  
+}
+#div4{
+  display:none;
+}
+
+.ts {
+  position: relative;
+  margin: 150px auto;
+  width:450px;
+  padding: 20px;
+  box-shadow: 3px 10px 20px rgba(9, 240, 29, 0.5);
+  border-radius: 3px;
+  border: 0;
+}
+.tf{
+  position: relative;
+  margin: 150px auto;
+ 
+  padding: 20px;
+  box-shadow: 3px 10px 20px rgba(228, 6, 6, 0.5);
+  border-radius: 3px;
+  border: 0;
+}
+.circle {
+    border-radius: 0.5px;
+    width: 100px;
+    height: 70px;
+    background: black;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background-image: linear-gradient(to top, #a6e3e9 0%, #3fc1c9 100%);
+    border-bottom-left-radius: 170px;
+  }
+  .content {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+  }
+ 
+  
+  .giff{
+    width:300px;
+    height:300px;
+    margin-top: 3%;
+
+  }
+ 
+  .t{
+    margin-bottom: 7%;
+    color: #ff2e63;
+    
+  }
+.a{
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.bb{
+  margin-left: -14%;
+  margin-top: 2%;
+}
+
+label{
+  color:navy;
+  font-style: italic;
+  font-weight: 700;
+  font-size: larger;
+}
+.amount{
+  width:30%;
+  margin-left: 35%;
 }
