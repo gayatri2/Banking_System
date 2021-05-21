@@ -1,7 +1,7 @@
 # Banking_System
 This project is about a basic banking system for transfer of money between multiple users.
 
-Technologies used:React js, Javascript, SQL.<br />
+Technologies used:React js,HTML, CSS, Javascript, SQL.<br />
 Dependencies: Node js, Express js
 
 In this project, initially, there is a landing page. 
